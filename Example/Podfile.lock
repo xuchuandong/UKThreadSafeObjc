@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - UKThreadSafeObjc (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - UKThreadSafeObjc (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  UKThreadSafeObjc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  UKThreadSafeObjc: a863f69934a01464169f71fff2768fe98c0caed3
+
+PODFILE CHECKSUM: 45f137e5ab69e703bfd67e610bc2436aa7e70df7
+
+COCOAPODS: 1.14.3

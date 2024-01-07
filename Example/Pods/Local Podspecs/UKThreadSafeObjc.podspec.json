@@ -1,0 +1,22 @@
+{
+  "name": "UKThreadSafeObjc",
+  "version": "0.1.0",
+  "summary": "A short description of UKThreadSafeObjc.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chuandong.xu/UKThreadSafeObjc",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chuandong.xu": "chuandong.xu@uking.com"
+  },
+  "source": {
+    "git": "https://github.com/chuandong.xu/UKThreadSafeObjc.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "UKThreadSafeObjc/Classes/**/*"
+}
