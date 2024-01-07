@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UKThreadSafeMutableArray.h"
+#import "UKThreadSafeMutableDictionary.h"
 
 FOUNDATION_EXPORT double UKThreadSafeObjcVersionNumber;
 FOUNDATION_EXPORT const unsigned char UKThreadSafeObjcVersionString[];

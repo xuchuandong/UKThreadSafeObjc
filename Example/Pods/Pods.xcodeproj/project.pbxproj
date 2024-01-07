@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04F7AA4754E9E43E2E4D595D170D9B15 /* Pods-UKThreadSafeObjc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F6FD5DD019C364B0F27E293D11D247 /* Pods-UKThreadSafeObjc_Tests-dummy.m */; };
-		0A8C1C3870C33E006CB7AFAD5BFBA24D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E6BAA3BFFD8EA02B99DB04EC6A9CC5 /* ReplaceMe.m */; };
+		078F0661358B75B77D0BCA737E1E9156 /* UKThreadSafeMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A165CEADF5A776FBBBF4A93CE77BC6E /* UKThreadSafeMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		120E6EBA711C38C10B5F7CAD7F60E4EC /* Pods-UKThreadSafeObjc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F037DBA7878A896016974AA3BFF68F0 /* Pods-UKThreadSafeObjc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
@@ -16,8 +16,8 @@
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		35542A46094BF26032EF7E9A13B6FE64 /* UKThreadSafeMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 629CCE851CF61D0F07ED854361D4BDE6 /* UKThreadSafeMutableArray.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		38C7A86F1BC3083C2FB3AA063A8150A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		56F8DE8EF5A72BDA8161C224E4FDF8C0 /* Pods-UKThreadSafeObjc_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4046143E28CEBEB7FC183E9DC127B980 /* Pods-UKThreadSafeObjc_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
@@ -27,35 +27,38 @@
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9B4F96799AA8CD0E61A935D1EAADE159 /* UKThreadSafeObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 417BF68A049B10F43D7206688E2EC552 /* UKThreadSafeObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E3DAA8862CAD0260EFB88479262A50 /* UKThreadSafeObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA99EC63907AD54E1C1360812CC0730D /* UKThreadSafeObjc-dummy.m */; };
+		99958E23DC17C4925957FEA49512F102 /* UKThreadSafeMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = A774D08AD5156E65E9573A5CBED6F85E /* UKThreadSafeMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		D4C78D963673FBF1870C03344D92F81A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		DBACA98C1A54D3891696275FAF720C15 /* UKThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A32EAE41EFB6756002E286756796304 /* UKThreadSafeMutableDictionary.m */; };
 		EDE4DE2C0077C08F10F073AFC168C42C /* Pods-UKThreadSafeObjc_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8DEA0C1346991866D70E8D112D6D0 /* Pods-UKThreadSafeObjc_Example-dummy.m */; };
 		EE2121A67B025B7A25A71CC3A722296E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		F67D14F13760CDFDE54C4BDC7800071F /* UKThreadSafeObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC49BFC41F816EA62D85531183ABD53 /* UKThreadSafeObjc-dummy.m */; };
+		F665C887367B03F5CF8059002D6CA742 /* UKThreadSafeObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D640AB48E0A501F3D402388FB02456 /* UKThreadSafeObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD3539E641916E2C6946972F40440D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D8D0A6758DEA58C65305A6CB7E29028 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A5ABD8652928D7A566371E2B8EA43BD6;
-			remoteInfo = UKThreadSafeObjc;
-		};
-		89C2DEF9AAD39D7457F1FCC107FF701C /* PBXContainerItemProxy */ = {
+		0E0EB5BDEC7C300C5EB013C1E148EC94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B46111B39377676F6FE875B9AF7EAE7A;
 			remoteInfo = "Pods-UKThreadSafeObjc_Example";
 		};
-		9734D521269B4490AB8DD3BAF414740B /* PBXContainerItemProxy */ = {
+		748D460E7E8A87C75D07020D859D8DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5ABD8652928D7A566371E2B8EA43BD6;
+			remoteInfo = UKThreadSafeObjc;
+		};
+		81A52F1C5EBC2314308354BB63CF9A0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -65,74 +68,77 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00DC948904FCFCB06757A50CF4C66B93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		00E1F244C1549678EBBF629B880CB436 /* UKThreadSafeObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UKThreadSafeObjc.debug.xcconfig; sourceTree = "<group>"; };
+		0A32EAE41EFB6756002E286756796304 /* UKThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UKThreadSafeMutableDictionary.m; path = UKThreadSafeObjc/Classes/UKThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
 		0CC1DFDD7EF3EBCC03E384C78EF7A556 /* Pods-UKThreadSafeObjc_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UKThreadSafeObjc_Example-Info.plist"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		11549082A2289DEEB9E252E0856599D2 /* UKThreadSafeObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UKThreadSafeObjc-Info.plist"; sourceTree = "<group>"; };
+		16C069B9FD44A0691C36317C678D5CC0 /* UKThreadSafeObjc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UKThreadSafeObjc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		27BD747BED7DD9818D78F7AC2ED41A41 /* UKThreadSafeObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UKThreadSafeObjc-Info.plist"; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		2F037DBA7878A896016974AA3BFF68F0 /* Pods-UKThreadSafeObjc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UKThreadSafeObjc_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2FAE9B40DF9C04EC9FACC9354495409D /* Pods-UKThreadSafeObjc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UKThreadSafeObjc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		30FD8069A249FC6D2F40133B2AE4343B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		3D89DCB4430CF0CB931A55797C76091D /* Pods-UKThreadSafeObjc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UKThreadSafeObjc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4046143E28CEBEB7FC183E9DC127B980 /* Pods-UKThreadSafeObjc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UKThreadSafeObjc_Example-umbrella.h"; sourceTree = "<group>"; };
-		417BF68A049B10F43D7206688E2EC552 /* UKThreadSafeObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UKThreadSafeObjc-umbrella.h"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4AC49BFC41F816EA62D85531183ABD53 /* UKThreadSafeObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UKThreadSafeObjc-dummy.m"; sourceTree = "<group>"; };
+		4A165CEADF5A776FBBBF4A93CE77BC6E /* UKThreadSafeMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UKThreadSafeMutableArray.h; path = UKThreadSafeObjc/Classes/UKThreadSafeMutableArray.h; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		50EFA47AEF5AAA2ED028E514D4B8081B /* UKThreadSafeObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UKThreadSafeObjc.debug.xcconfig; sourceTree = "<group>"; };
 		570DC75E52F6D9F17263F0F8AA17918F /* Pods-UKThreadSafeObjc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UKThreadSafeObjc_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		629CCE851CF61D0F07ED854361D4BDE6 /* UKThreadSafeMutableArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UKThreadSafeMutableArray.m; path = UKThreadSafeObjc/Classes/UKThreadSafeMutableArray.m; sourceTree = "<group>"; };
 		641DDBCBE5BF22F72831FD9A5E92F158 /* Pods-UKThreadSafeObjc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UKThreadSafeObjc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		670CF55ADBB43311FF2595BBA72C61C6 /* UKThreadSafeObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UKThreadSafeObjc.modulemap; sourceTree = "<group>"; };
+		66C84A443B125A5B8741C9548C327B50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		67BCF8930D2FFCD3A36EB46DA8E7FE2C /* UKThreadSafeObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UKThreadSafeObjc.release.xcconfig; sourceTree = "<group>"; };
 		67C8DEA0C1346991866D70E8D112D6D0 /* Pods-UKThreadSafeObjc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UKThreadSafeObjc_Example-dummy.m"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		799030D1FBE0F50C94DA6B00B9D980B3 /* Pods-UKThreadSafeObjc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UKThreadSafeObjc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		82F04002620430C3BE176F92BC8A7C40 /* Pods-UKThreadSafeObjc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UKThreadSafeObjc_Example.modulemap"; sourceTree = "<group>"; };
+		85320EE53B8392EA42536F6E00CC1142 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		90F6FD5DD019C364B0F27E293D11D247 /* Pods-UKThreadSafeObjc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UKThreadSafeObjc_Tests-dummy.m"; sourceTree = "<group>"; };
-		91E6BAA3BFFD8EA02B99DB04EC6A9CC5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UKThreadSafeObjc/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		96EA98F91EC5D4EA4C3D61926BAECACB /* UKThreadSafeObjc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UKThreadSafeObjc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97282E4148A6BCE9C74DBE05DD719FA9 /* Pods-UKThreadSafeObjc_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UKThreadSafeObjc_Tests"; path = Pods_UKThreadSafeObjc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97B2253DAA56EFDB38684AB35CE7A6B1 /* UKThreadSafeObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UKThreadSafeObjc-prefix.pch"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9C1E7BA46651C7B94D0BCDDFFD9AEA8B /* UKThreadSafeObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UKThreadSafeObjc-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A774D08AD5156E65E9573A5CBED6F85E /* UKThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UKThreadSafeMutableDictionary.h; path = UKThreadSafeObjc/Classes/UKThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
 		A83A88E8277929C1D9D6CFDE797B50D6 /* UKThreadSafeObjc */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UKThreadSafeObjc; path = UKThreadSafeObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA206A4D68BCD57C677FE30C27EB407C /* Pods-UKThreadSafeObjc_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UKThreadSafeObjc_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AC2A842C07499BCAAD97A5E519BB9E0F /* Pods-UKThreadSafeObjc_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UKThreadSafeObjc_Tests-Info.plist"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		BDE0288AFB7FF98CA77F938806825036 /* Pods-UKThreadSafeObjc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UKThreadSafeObjc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6D640AB48E0A501F3D402388FB02456 /* UKThreadSafeObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UKThreadSafeObjc-umbrella.h"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D398BBF6A67EBF14D0C976A8A33A218E /* Pods-UKThreadSafeObjc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UKThreadSafeObjc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		E25AFA5956E902409520A8CF26028119 /* Pods-UKThreadSafeObjc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UKThreadSafeObjc_Tests.modulemap"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EBFB4C1DC4EBE9BDCB0B7DC72AF50677 /* UKThreadSafeObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UKThreadSafeObjc.release.xcconfig; sourceTree = "<group>"; };
+		E9D6C8974F0A054604BB2517724D3583 /* UKThreadSafeObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UKThreadSafeObjc.modulemap; sourceTree = "<group>"; };
 		F06CE156B883244ADBE813D45464C010 /* Pods-UKThreadSafeObjc_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UKThreadSafeObjc_Example"; path = Pods_UKThreadSafeObjc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F530C0BE3F38606E9743F37A406148F9 /* Pods-UKThreadSafeObjc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UKThreadSafeObjc_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F5457E56EE204F91FD60B785A5AB04A4 /* Pods-UKThreadSafeObjc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UKThreadSafeObjc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA99EC63907AD54E1C1360812CC0730D /* UKThreadSafeObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UKThreadSafeObjc-dummy.m"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		232803F2F28918B9370D9F4F098C5EF1 /* Frameworks */ = {
+		51A01E0071091EAAC58ED70D77CA6AD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C7A86F1BC3083C2FB3AA063A8150A7 /* Foundation.framework in Frameworks */,
+				FD3539E641916E2C6946972F40440D60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,27 +172,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16B9C02A0A8225DFCA38A0575325AB41 /* Support Files */ = {
+		129160135A70BF4CE9AC4EE712E3ADD6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				670CF55ADBB43311FF2595BBA72C61C6 /* UKThreadSafeObjc.modulemap */,
-				4AC49BFC41F816EA62D85531183ABD53 /* UKThreadSafeObjc-dummy.m */,
-				27BD747BED7DD9818D78F7AC2ED41A41 /* UKThreadSafeObjc-Info.plist */,
-				97B2253DAA56EFDB38684AB35CE7A6B1 /* UKThreadSafeObjc-prefix.pch */,
-				417BF68A049B10F43D7206688E2EC552 /* UKThreadSafeObjc-umbrella.h */,
-				50EFA47AEF5AAA2ED028E514D4B8081B /* UKThreadSafeObjc.debug.xcconfig */,
-				EBFB4C1DC4EBE9BDCB0B7DC72AF50677 /* UKThreadSafeObjc.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UKThreadSafeObjc";
-			sourceTree = "<group>";
-		};
-		2D766144F5445BB77A530BD006849097 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DF3E867F888D8E5E48F5D5E9F34BFD7A /* UKThreadSafeObjc */,
+				35505C38649A85A0E68C05D327007837 /* UKThreadSafeObjc */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		35505C38649A85A0E68C05D327007837 /* UKThreadSafeObjc */ = {
+			isa = PBXGroup;
+			children = (
+				4A165CEADF5A776FBBBF4A93CE77BC6E /* UKThreadSafeMutableArray.h */,
+				629CCE851CF61D0F07ED854361D4BDE6 /* UKThreadSafeMutableArray.m */,
+				A774D08AD5156E65E9573A5CBED6F85E /* UKThreadSafeMutableDictionary.h */,
+				0A32EAE41EFB6756002E286756796304 /* UKThreadSafeMutableDictionary.m */,
+				4FE698D6FE28A2D3E41DA9E3AFB527FE /* Pod */,
+				FE6A6960A3E8C1C9481E8C52F6F7DC91 /* Support Files */,
+			);
+			name = UKThreadSafeObjc;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -208,6 +213,16 @@
 				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		4FE698D6FE28A2D3E41DA9E3AFB527FE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				66C84A443B125A5B8741C9548C327B50 /* LICENSE */,
+				85320EE53B8392EA42536F6E00CC1142 /* README.md */,
+				16C069B9FD44A0691C36317C678D5CC0 /* UKThreadSafeObjc.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6F6DFF6FFDCEC8238313F5AF40BDCA39 /* Pods-UKThreadSafeObjc_Tests */ = {
@@ -233,16 +248,6 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		9B402562189E21204CD16B4674C3ECC6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				30FD8069A249FC6D2F40133B2AE4343B /* LICENSE */,
-				00DC948904FCFCB06757A50CF4C66B93 /* README.md */,
-				96EA98F91EC5D4EA4C3D61926BAECACB /* UKThreadSafeObjc.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		9D357427DF3161F37B2DF9599BA487CE /* Targets Support Files */ = {
@@ -303,23 +308,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2D766144F5445BB77A530BD006849097 /* Development Pods */,
+				129160135A70BF4CE9AC4EE712E3ADD6 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				ABF136BCB894682B3DC7F0A6F93048AD /* Products */,
 				9D357427DF3161F37B2DF9599BA487CE /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DF3E867F888D8E5E48F5D5E9F34BFD7A /* UKThreadSafeObjc */ = {
-			isa = PBXGroup;
-			children = (
-				91E6BAA3BFFD8EA02B99DB04EC6A9CC5 /* ReplaceMe.m */,
-				9B402562189E21204CD16B4674C3ECC6 /* Pod */,
-				16B9C02A0A8225DFCA38A0575325AB41 /* Support Files */,
-			);
-			name = UKThreadSafeObjc;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		E7A70AF803A369C519ACD71FA3B0088C /* Pods-UKThreadSafeObjc_Example */ = {
@@ -358,9 +352,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FE6A6960A3E8C1C9481E8C52F6F7DC91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D6C8974F0A054604BB2517724D3583 /* UKThreadSafeObjc.modulemap */,
+				FA99EC63907AD54E1C1360812CC0730D /* UKThreadSafeObjc-dummy.m */,
+				11549082A2289DEEB9E252E0856599D2 /* UKThreadSafeObjc-Info.plist */,
+				9C1E7BA46651C7B94D0BCDDFFD9AEA8B /* UKThreadSafeObjc-prefix.pch */,
+				C6D640AB48E0A501F3D402388FB02456 /* UKThreadSafeObjc-umbrella.h */,
+				00E1F244C1549678EBBF629B880CB436 /* UKThreadSafeObjc.debug.xcconfig */,
+				67BCF8930D2FFCD3A36EB46DA8E7FE2C /* UKThreadSafeObjc.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UKThreadSafeObjc";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2EDD67F922FE8277939ED6F5C7F04D5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078F0661358B75B77D0BCA737E1E9156 /* UKThreadSafeMutableArray.h in Headers */,
+				99958E23DC17C4925957FEA49512F102 /* UKThreadSafeMutableDictionary.h in Headers */,
+				F665C887367B03F5CF8059002D6CA742 /* UKThreadSafeObjc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4A4C4BB27C364A4A3D791455EB3FE65 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,14 +411,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED51488ECA6CDA63516A5A268AC977C5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B4F96799AA8CD0E61A935D1EAADE159 /* UKThreadSafeObjc-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -423,12 +434,12 @@
 		};
 		A5ABD8652928D7A566371E2B8EA43BD6 /* UKThreadSafeObjc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA11AAEFEF94580740853D19C71192E2 /* Build configuration list for PBXNativeTarget "UKThreadSafeObjc" */;
+			buildConfigurationList = E972E43DBF555C4CD7A168E7CFEA6CE0 /* Build configuration list for PBXNativeTarget "UKThreadSafeObjc" */;
 			buildPhases = (
-				ED51488ECA6CDA63516A5A268AC977C5 /* Headers */,
-				4326EE06DECB7FA4B48BAE14A5E30E80 /* Sources */,
-				232803F2F28918B9370D9F4F098C5EF1 /* Frameworks */,
-				00C823AD8F81D8DA8FD160672612AA2D /* Resources */,
+				2EDD67F922FE8277939ED6F5C7F04D5A /* Headers */,
+				1E9EFFA4473873C0BAB9F7ABDA90DC53 /* Sources */,
+				51A01E0071091EAAC58ED70D77CA6AD1 /* Frameworks */,
+				09273D0F5A4A6F6817CFD24052A0843E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -451,7 +462,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3B21B5C71130B5FAC97DF77670108B4F /* PBXTargetDependency */,
+				4864CC194C3C6902D6031703A6220509 /* PBXTargetDependency */,
 			);
 			name = "Pods-UKThreadSafeObjc_Example";
 			productName = Pods_UKThreadSafeObjc_Example;
@@ -470,8 +481,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				62127F97E32D60E8C15AFFCE719EBC46 /* PBXTargetDependency */,
-				44006CDE78A6391A7889E968CDA219E3 /* PBXTargetDependency */,
+				DE52A6129EACC6F0349E08B4D3C9CC1D /* PBXTargetDependency */,
+				4E11B905B35079CBA6D578B966B82165 /* PBXTargetDependency */,
 			);
 			name = "Pods-UKThreadSafeObjc_Tests";
 			productName = Pods_UKThreadSafeObjc_Tests;
@@ -509,7 +520,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00C823AD8F81D8DA8FD160672612AA2D /* Resources */ = {
+		09273D0F5A4A6F6817CFD24052A0843E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -548,12 +559,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4326EE06DECB7FA4B48BAE14A5E30E80 /* Sources */ = {
+		1E9EFFA4473873C0BAB9F7ABDA90DC53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A8C1C3870C33E006CB7AFAD5BFBA24D /* ReplaceMe.m in Sources */,
-				F67D14F13760CDFDE54C4BDC7800071F /* UKThreadSafeObjc-dummy.m in Sources */,
+				35542A46094BF26032EF7E9A13B6FE64 /* UKThreadSafeMutableArray.m in Sources */,
+				DBACA98C1A54D3891696275FAF720C15 /* UKThreadSafeMutableDictionary.m in Sources */,
+				93E3DAA8862CAD0260EFB88479262A50 /* UKThreadSafeObjc-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,23 +596,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B21B5C71130B5FAC97DF77670108B4F /* PBXTargetDependency */ = {
+		4864CC194C3C6902D6031703A6220509 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UKThreadSafeObjc;
 			target = A5ABD8652928D7A566371E2B8EA43BD6 /* UKThreadSafeObjc */;
-			targetProxy = 6D8D0A6758DEA58C65305A6CB7E29028 /* PBXContainerItemProxy */;
+			targetProxy = 748D460E7E8A87C75D07020D859D8DBE /* PBXContainerItemProxy */;
 		};
-		44006CDE78A6391A7889E968CDA219E3 /* PBXTargetDependency */ = {
+		4E11B905B35079CBA6D578B966B82165 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UKThreadSafeObjc_Example";
 			target = B46111B39377676F6FE875B9AF7EAE7A /* Pods-UKThreadSafeObjc_Example */;
-			targetProxy = 89C2DEF9AAD39D7457F1FCC107FF701C /* PBXContainerItemProxy */;
+			targetProxy = 0E0EB5BDEC7C300C5EB013C1E148EC94 /* PBXContainerItemProxy */;
 		};
-		62127F97E32D60E8C15AFFCE719EBC46 /* PBXTargetDependency */ = {
+		DE52A6129EACC6F0349E08B4D3C9CC1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 9734D521269B4490AB8DD3BAF414740B /* PBXContainerItemProxy */;
+			targetProxy = 81A52F1C5EBC2314308354BB63CF9A0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -625,6 +637,67 @@
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		517DEB7B85CF220E45AD03378ABF8280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E1F244C1549678EBBF629B880CB436 /* UKThreadSafeObjc.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc.modulemap";
+				PRODUCT_MODULE_NAME = UKThreadSafeObjc;
+				PRODUCT_NAME = UKThreadSafeObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6514EBC2193DC56F2CB8F8A020F25D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BCF8930D2FFCD3A36EB46DA8E7FE2C /* UKThreadSafeObjc.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc.modulemap";
+				PRODUCT_MODULE_NAME = UKThreadSafeObjc;
+				PRODUCT_NAME = UKThreadSafeObjc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -663,38 +736,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7CD27452A12042261A371302C2284572 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBFB4C1DC4EBE9BDCB0B7DC72AF50677 /* UKThreadSafeObjc.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc.modulemap";
-				PRODUCT_MODULE_NAME = UKThreadSafeObjc;
-				PRODUCT_NAME = UKThreadSafeObjc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -827,37 +868,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		ACCA279EFC48301FBAE67C3F5F358279 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50EFA47AEF5AAA2ED028E514D4B8081B /* UKThreadSafeObjc.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UKThreadSafeObjc/UKThreadSafeObjc.modulemap";
-				PRODUCT_MODULE_NAME = UKThreadSafeObjc;
-				PRODUCT_NAME = UKThreadSafeObjc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CCBF1B2D29FEFCB7C17792E03E4D5601 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1030,11 +1040,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA11AAEFEF94580740853D19C71192E2 /* Build configuration list for PBXNativeTarget "UKThreadSafeObjc" */ = {
+		E972E43DBF555C4CD7A168E7CFEA6CE0 /* Build configuration list for PBXNativeTarget "UKThreadSafeObjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACCA279EFC48301FBAE67C3F5F358279 /* Debug */,
-				7CD27452A12042261A371302C2284572 /* Release */,
+				517DEB7B85CF220E45AD03378ABF8280 /* Debug */,
+				6514EBC2193DC56F2CB8F8A020F25D43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
