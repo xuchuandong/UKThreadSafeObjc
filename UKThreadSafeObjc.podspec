@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UKThreadSafeObjc'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = '线程安全对象：安全数组、字典'
   s.description      = <<-DESC
 摘自Weex SDK
